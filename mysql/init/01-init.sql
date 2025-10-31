@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS demo;
+USE demo;
+CREATE TABLE IF NOT EXISTS ejemplo (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(100)
+);
+INSERT INTO ejemplo (nombre) VALUES ('dato inicial');
